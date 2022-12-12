@@ -43,7 +43,7 @@ function renderMovies(movie) {
         button.innerText = "Buy Ticket";                //for each click the button text should be "Buy Ticket"
         button.className = "ui purple button";          //for each click the button color should be purple
             displayMovies(movie)                        //as you click a particular movie in the list we display all the ovie details 
-            deleteMovies()
+           
           })
       
     })

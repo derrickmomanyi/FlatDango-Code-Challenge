@@ -73,7 +73,7 @@ The Buy-Ticket feature doesn't actually purchase tickets, it's functonality may 
    
 Author Derrick Momanyi
 
-Github: @derrickmomani
+Github: @derrickmomanyi
 
 License Copyright © 2022 Derrick Momanyi This project is MORINGA SCHOOL licensed.
 

@@ -2,7 +2,7 @@
 For this assessment, I'll be working on Flatdango. Flatiron Movie Theater is open for business! I will be building out an application, Flatdango, that allows a user to purchase movie tickets from the theater and fetch data from a local server running JSON DB server.
 
 
-This READMe consists of the deliverables, author, licences and few explanations
+This README consists of the deliverables, author, licences and few explanations
 ## Core Deliverables
 
 As a user, I can:
@@ -54,7 +54,7 @@ When the HTML loads it first displays the details of the first movie with the Id
 
 By clicking the Buy Ticket button the number of available tickets left will decrement and if there are no tickets left; the number of tickets are zero; the button text changes to "Sold OUt"
 
-We fetch our data from this local server  'http://localhost:3000/films/' , by running this command 'jsn-server --watch db.json' the details in the api are displayed in the browser window, in JSON Object format, in form of the following details:
+We fetch our data from this local server  'http://localhost:3000/films/' , by running this command 'json-server --watch db.json' the details in the api are displayed in the browser window, in JSON Object format, in form of the following details:
 .. Title of the movie
 .. Description of the movie
 .. Runtime of the movie
@@ -62,6 +62,8 @@ We fetch our data from this local server  'http://localhost:3000/films/' , by ru
 .. Time at which the movie will be showing
 .. Number of tickets available
 .. Number of tickets remaining
+
+The Buy-Ticket feature doesn't actually purchase tickets, it's functonality may be worked on at later stages of the project
 
 
 
